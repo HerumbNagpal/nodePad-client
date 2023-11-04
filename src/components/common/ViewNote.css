@@ -1,0 +1,93 @@
+body.active-modal {
+  overflow-y: hidden;
+}
+
+.btn-modal {
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
+}
+
+.note-modal,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  background: rgba(49, 49, 49, 0.8);
+}
+.note-modal-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #f1f1f1;
+  padding: 14px 28px;
+  border-radius: 3px;
+  min-width: 700px;
+  min-height: 400px;
+}
+
+.cross {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  cursor: pointer;
+}
+.note-modal-heading {
+  margin-top: 40px;
+  margin-left: 20px;
+  width: 100%;
+  text-align: start;
+}
+
+.note-modal-content {
+  margin-left: 20px;
+  width: 90%;
+  height: 200px;
+  overflow-y: scroll;
+  text-align: left;
+}
+
+.note-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 12%;
+  left: 35%;
+  gap: 3rem;
+}
+
+.note-edit {
+  text-transform: uppercase;
+  width: 50%;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+.note-del {
+  text-transform: uppercase;
+  width: 25%;
+  height: 25%;
+  padding: 5px 10px;
+  border: none;
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+
+}
