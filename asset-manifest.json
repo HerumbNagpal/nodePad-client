@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/nodePad-client/static/css/main.26fac77a.css",
-    "main.js": "/nodePad-client/static/js/main.694daed6.js",
+    "main.js": "/nodePad-client/static/js/main.9084d534.js",
     "static/js/787.68c44a21.chunk.js": "/nodePad-client/static/js/787.68c44a21.chunk.js",
     "static/media/splash.jpg": "/nodePad-client/static/media/splash.d3496397aa4bb44cb48d.jpg",
     "static/media/pageTurn.gif": "/nodePad-client/static/media/pageTurn.82180983329a563fd256.gif",
     "index.html": "/nodePad-client/index.html",
     "main.26fac77a.css.map": "/nodePad-client/static/css/main.26fac77a.css.map",
-    "main.694daed6.js.map": "/nodePad-client/static/js/main.694daed6.js.map",
+    "main.9084d534.js.map": "/nodePad-client/static/js/main.9084d534.js.map",
     "787.68c44a21.chunk.js.map": "/nodePad-client/static/js/787.68c44a21.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.26fac77a.css",
-    "static/js/main.694daed6.js"
+    "static/js/main.9084d534.js"
   ]
 }
